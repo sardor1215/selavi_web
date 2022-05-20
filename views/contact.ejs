@@ -1,0 +1,44 @@
+<%- include("partials/header"); -%>
+<div class="embed-responsive-fluid my-5 px-5">
+  <iframe width="100%" class="embed-responsive-item " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.76457508458!2d2.2769953358840183!3d48.858946580918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sLouvre%20Museum!5e0!3m2!1sen!2s!4v1649792491871!5m2!1sen!2s" width="1100" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="container info-form">
+  <div class="row">
+    
+  </div>
+  <div class="row">
+    <div class="col">
+      <h1>Contact Form</h1>
+      <p>You can send us your message by filling out the form!</p>
+    </div>
+  </div>
+  <form action="contact" method="POST">
+    <div>
+  <div class="row">
+    
+    <div class="col-lg-4">
+      <input type="text" class="form-control" name="namesur" id="namesur" placeholder="Name Surname">
+    </div>
+    <div class="col-lg-4">
+      <input type="email"class="form-control" id="namesur" placeholder="E-Mail Address">
+    </div>
+    <div class="col-lg-4">
+      <input type="text" class="form-control" placeholder="Phone Number">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <textarea  class="form-control" rows="4" cols="50"></textarea>
+      
+    </div>
+    
+    
+    
+  </div>
+  <button type="submit" class="btn btn-primary my-4">SAVE</button>
+  </div>
+</form>
+</div>
+
+<%- include("partials/info-box"); -%>
+<%- include("partials/footer"); -%>
